@@ -6,7 +6,7 @@ module Ruboty module Actions
 
 		private
 		def half_to_full(str)
-			str.tr('0-9a-zA-Zー\- ', '０-９ａ-ｚＡ-Ｚ｜｜　')
+			str.tr('0-9a-zA-Zー\- 。、', '０-９ａ-ｚＡ-Ｚ｜｜　︒︑')
 		end
 
 		def to_tanzaku text
