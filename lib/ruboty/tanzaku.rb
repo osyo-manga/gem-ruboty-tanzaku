@@ -1,7 +1,2 @@
 require "ruboty/tanzaku/version"
-
-module Ruboty
-  module Tanzaku
-    # Your code goes here...
-  end
-end
+require_relative "./handlers/tanzaku.rb"
