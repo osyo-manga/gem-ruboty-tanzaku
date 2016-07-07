@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{tanzaku}
   spec.description   = %q{tanzaku}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/osyo-manga/gem-ruboty-tanzaku"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
